@@ -3,4 +3,4 @@ display_name: CTF 比赛推送
 desc: 每天定时向白名单群推送当日 CTF 比赛信息，并支持 /比赛 与 /查询比赛。
 version: v1.2.2
 author: Mo1u
-repo: https://github.com/example/astrbot_plugin_ctf_push
+repo: https://github.com/Mooo1u/astrbot_plugin_ctf_push
