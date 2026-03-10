@@ -1,0 +1,33 @@
+{
+  "enabled": {
+    "type": "bool",
+    "description": "是否启用每日定时推送",
+    "default": true
+  },
+  "push_time": {
+    "type": "string",
+    "description": "推送时间，格式 HH:MM；多个时间可用逗号分隔，例如 09:00,21:30",
+    "default": "09:00"
+  },
+  "timezone": {
+    "type": "string",
+    "description": "推送时区（如 Asia/Shanghai）",
+    "default": "Asia/Shanghai"
+  },
+  "group_whitelist": {
+    "type": "list",
+    "description": "推送白名单。支持 unified_msg_origin 或群号字符串。群号需先在群内执行一次 /比赛 进行绑定。",
+    "default": [],
+    "items": {}
+  },
+  "api_url": {
+    "type": "string",
+    "description": "比赛接口地址",
+    "default": "https://www.ctfplus.cn/api/competition/getCompetitionPanelCompetitions"
+  },
+  "request_timeout": {
+    "type": "int",
+    "description": "请求超时时间（秒）",
+    "default": 20
+  }
+}
